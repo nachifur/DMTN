@@ -1,0 +1,53 @@
+ADV: 1
+BACKUP: 0
+BATCH_SIZE: 1
+BETA1: 0.9
+BETA2: 0.999
+DATA_ROOT: /home/xxx/data-set/shadow_removal_dataset/SRD_Dataset_arg
+DEBUG: 0
+DIS_NORM: spectral
+FORCE_EXIT: 1
+GAN_LOSS: nsgan
+GAN_NORM: batch_
+GPU:
+- '0'
+INIT_TYPE: identity
+INPUT_SIZE_H: 640
+INPUT_SIZE_W: 840
+LOG_INTERVAL: 10
+LOSS: L1Loss
+LR: 0.0001
+LR_D: 5.0e-05
+MIDDLE_RES_NUM: 4
+MODEL_NAME: ShadowRemoval
+NETWORK: DMTN
+POOL_SIZE: 50
+PRE_TRAIN_EVAL_LEN: 10
+RESULTS: ./checkpoints/SRD/results
+RESULTS_SAMPLE: 0
+SAMPLE_SIZE: 1
+SEED: 10
+SPLIT: 1
+SUBJECT_WORD: SRD
+TRAIN_EVAL_LEN: 10
+VERBOSE: 1
+
+TEST_FLIST: /data_val/SRD_shadow_test.flist
+TEST_GT_FLIST: /data_val/SRD_shadow_free_test.flist
+TEST_MASK_FLIST: /data_val/SRD_mask_test.flist
+
+TRAIN_FLIST: /data_val/SRD_shadow_train_train.flist
+TRAIN_GT_FLIST: /data_val/SRD_shadow_free_train_train.flist
+TRAIN_MASK_FLIST: /data_val/SRD_mask_train_train.flist
+
+TRAIN_FLIST_PRE: /data_val/SRD_shadow_pre_train.flist
+TRAIN_GT_FLIST_PRE: /data_val/SRD_shadow_free_pre_train.flist
+TRAIN_MASK_FLIST_PRE: /data_val/SRD_mask_pre_train.flist
+
+VAL_FLIST: /data_val/SRD_shadow_train_val.flist
+VAL_GT_FLIST: /data_val/SRD_shadow_free_train_val.flist
+VAL_MASK_FLIST: /data_val/SRD_mask_train_val.flist
+
+VAL_FLIST_PRE: /data_val/SRD_shadow_pre_val.flist
+VAL_GT_FLIST_PRE: /data_val/SRD_shadow_free_pre_val.flist
+VAL_MASK_FLIST_PRE: /data_val/SRD_mask_pre_val.flist
