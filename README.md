@@ -1,6 +1,6 @@
 # DMTN
 
-<img src="https://github.com/nachifur/DMTN/tree/main/img/fig1.jpg"/>
+<img src="https://github.com/nachifur/DMTN/blob/main/img/fig1.jpg"/>
 
 # 1. Resources
 
@@ -8,11 +8,11 @@
 * SRD ([github](https://github.com/Liangqiong/DeShadowNet) | [paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qu_DeshadowNet_A_Multi-Context_CVPR_2017_paper.pdf))
 * ISTD ([github](https://github.com/DeepInsight-PCALab/ST-CGAN) | [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Stacked_Conditional_Generative_CVPR_2018_paper.pdf))
 * ISTD+DA, SRD+DA ([github](https://github.com/vinthony/ghost-free-shadow-removal) | [paper](https://arxiv.org/abs/1911.08718))
-* [SSRD-Updating]()
+* [SSRD]()
 
 The SSRD dataset does not contain the ground truth of shadow-free images due to the presence of self shadow in images.
 
-## 1.2 Results | Model Weight (Updating)
+## 1.2 Results | Model Weight
 
 **TEST RESULTS ON SRD:**
 * Results on SRD: [DMTN_SRD]() | Weight: [DMTN_SRD.pth]()
@@ -39,11 +39,11 @@ Weight for SSRD: DHAN and DMTN are pretrained on SRD dataset
 
 *Visual comparison results of **penumbra** removal on the SRD dataset - (Powered by [MulimgViewer](https://github.com/nachifur/MulimgViewer))*
 
-<img src="https://github.com/nachifur/DMTN/tree/main/img/fig2.jpg"/>
+<img src="https://github.com/nachifur/DMTN/blob/main/img/fig2.jpg"/>
 
 *Visual comparison results of **self shadow** removal on the SSRD dataset - (Powered by [MulimgViewer](https://github.com/nachifur/MulimgViewer))*
 
-<img src="https://github.com/nachifur/DMTN/tree/main/img/fig3.jpg"/>
+<img src="https://github.com/nachifur/DMTN/blob/main/img/fig3.jpg"/>
 
 
 ## 1.4 Evaluation Code
