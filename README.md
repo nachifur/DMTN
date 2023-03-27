@@ -49,7 +49,7 @@ DHAN and DMTN are pretrained on SRD dataset (size:420x320)
 ## 1.4 Evaluation Code
 Currently, MATLAB evaluation codes are used in most state-of-the-art works for shadow removal.
 
-[Our evaluation code]() (i.e., 1+2)
+[Our evaluation code](https://github.com/nachifur/DMTN/blob/main/evaluation/evaluate_MAE_PSNR_SSIM.m) (i.e., 1+2)
 1. MAE (i.e., RMSE in paper): https://github.com/tsingqguo/exposure-fusion-shadow-removal
 2. PSNR+SSIM: https://github.com/zhuyr97/AAAI2022_Unfolding_Network_Shadow_Removal/tree/master/codes
 
