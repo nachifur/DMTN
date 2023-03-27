@@ -1,6 +1,6 @@
-# DMTN (updating)
+# DMTN
 
-<img src="https://github.com/nachifur/DMTN/blob/main/img/fig1.jpg"/>
+<img width="512" height="512" src="https://github.com/nachifur/DMTN/blob/main/img/fig1.jpg"/>
 
 # 1. Resources
 
@@ -8,31 +8,31 @@
 * SRD ([github](https://github.com/Liangqiong/DeShadowNet) | [paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qu_DeshadowNet_A_Multi-Context_CVPR_2017_paper.pdf))
 * ISTD ([github](https://github.com/DeepInsight-PCALab/ST-CGAN) | [paper](http://openaccess.thecvf.com/content_cvpr_2018/papers/Wang_Stacked_Conditional_Generative_CVPR_2018_paper.pdf))
 * ISTD+DA, SRD+DA ([github](https://github.com/vinthony/ghost-free-shadow-removal) | [paper](https://arxiv.org/abs/1911.08718))
-* [SSRD]()
+* [SSRD](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EckYI_84wMdJpVgf5EqkmSABmnOD_-53YZ6v2KIQsiLeXA?e=67Gj47)
 
 The SSRD dataset does not contain the ground truth of shadow-free images due to the presence of self shadow in images.
 
 ## 1.2 Results | Model Weight
 
 **TEST RESULTS ON SRD:**
-* Results on SRD: [DMTN_SRD]() | Weight: [DMTN_SRD.pth]()
-* Results on SRD: [DMTN+Mask_SRD]() | Weight: [DMTN+Mask_SRD.pth]()
+* Results on SRD: [DMTN_SRD](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EQt3ZoJAbZ5Cq_mhHxzrUVYBcsiaPLjnsN-SmhotYz-UOg?e=hS2RkJ) | Weight: [DMTN_SRD.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EWc4B9PP-rtGp4LxPWGOkfoB6oi6Coh1tu-qG5qxBk-7Cg?e=sdlSiA)
+* Results on SRD: [DMTN+Mask_SRD](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EU0JfEPuOUNNlSQDc0TfYgQBOAtMpXjK5yRoa3q2H_bcnQ?e=MgsEu5) | Weight: [DMTN+Mask_SRD.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EU4NJ0CPbwpBrzyXH5FLlMEBzqwKhcXlxe8k4vQiXRrJUw?e=FPKlfF)
 
 **TEST RESULTS ON ISTD:**
-* Results on ISTD: [DMTN_ISTD]() | Weight: [DMTN_ISTD.pth]()
-* Results on ISTD: [DMTN+Mask_ISTD]() | Weight: [DMTN+Mask_ISTD.pth]()
-* Results on ISTD+DA: [DMTN_ISTD_DA]() | Weight: [DMTN_ISTD_DA.pth]()
+* Results on ISTD: [DMTN_ISTD](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EbyzaV72N2FElC5nOsp3-ZYBuUoVLiy29rmXBMXVXXY6Lg?e=wKA55D) | Weight: [DMTN_ISTD.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EROUwnLgz9BGi3OtJa5SIs8BwdgYBZTXeMJ1NLcGfHAwCg?e=v1f51U)
+* Results on ISTD: [DMTN+Mask_ISTD](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EcRgA4y1UAZIkRIabbm71iIBNhRH-JIugQDbInyWE3rpNQ?e=D8BiGD) | Weight: [DMTN+Mask_ISTD.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EcnDQNKeoRdBtUYjQdirl34BR73n--qRnFIo6RnxPvk-KQ?e=9V0LIR)
+* Results on ISTD+DA: [DMTN_ISTD_DA](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/ERGASEyFybBDm9rYZv4a3I4B6FwMmrhZMImk_-b7Lo-YeQ?e=MbzrMk) | Weight: [DMTN_ISTD_DA.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EWwqrUr7Qh9KugvJ2S5KsdMBYz6aiR-ufiX3kn3zB626lg?e=7QJRra)
 
 **TEST RESULTS ON ISTD+:**
-* Results on ISTD+: [DMTN_ISTD+]() | Weight: [DMTN_ISTD+.pth]()
-* Results on ISTD+: [DMTN+Mask_ISTD+]() | Weight: [DMTN+Mask_ISTD+.pth]()
+* Results on ISTD+: [DMTN_ISTD+](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EZnB81g7L3VPuGo2zhVclVEBPhsO6MBJYPtbOnqxmEDHuw?e=MZLmUM) | Weight: [DMTN_ISTD+.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/ETVno1MtDsdLknqDNKq60VwB9Bq-oq8kZ8B8aiwQBZXbQQ?e=B0S37N)
+* Results on ISTD+: [DMTN+Mask_ISTD+](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EZEQr_hD7XdGgPiesl0L8aABSugt0z5U6V9q2Wv-fEr-VA?e=zq5A7s) | Weight: [DMTN+Mask_ISTD+.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/ETo6UMeCGNhFjJ20o0RedaQBG7XIDcfbqucJ3A-hK6IQAQ?e=uN6sTs)
 
 **TEST RESULTS ON SSRD:**
 
-* Results of DMTN on SSRD: [DMTN_SSRD]()
-* Results of DHAN on SSRD:[DHAN_SSRD]()
+* Results of DMTN on SSRD: [DMTN_SSRD](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/ET7vtW6b-RNFiK7hJe8coXoBjMMUj2vZ4nEj1SitH8wuKA?e=ZDnfYV) | Weight: [DMTN_SRD_420_320.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EQgZbEFJCLZGiAM8rnbE-ZUBHXw3zyTrhdet7JDSCrYiuA?e=6PcofV)
+* Results of DHAN on SSRD:[DHAN_SSRD](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EROyGJwa2C5JkO1bLDVV_AsBbXRPKoZbBy5EsjAsz6xujg?e=nw53O6)
 
-Weight for SSRD: DHAN and DMTN are pretrained on SRD dataset
+DHAN and DMTN are pretrained on SRD dataset (size:420x320)
 
 ## 1.3 Visual results
 
@@ -205,7 +205,6 @@ Part of the code is based upon:
 * https://github.com/knazeri/edge-connect
 
 # 6. Citation
-If you find our work useful in your research, please consider citing:
 ```
 @ARTICLE{liu2023decoupled,
   author={Liu, Jiawei and Wang, Qiang and Fan, Huijie and Li, Wentao and Qu, Liangqiong and Tang, Yandong},
