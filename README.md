@@ -1,4 +1,4 @@
-# DMTN
+# DMTN (updating)
 
 <img src="https://github.com/nachifur/DMTN/blob/main/img/fig1.jpg"/>
 

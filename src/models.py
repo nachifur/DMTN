@@ -74,8 +74,8 @@ class Model(BaseModel):
 
     def forward(self, images):
         inputs = images
-        edges = self.network_instance(inputs)
-        return edges
+        outputs = self.network_instance(inputs)
+        return outputs
 
     def backward(self, loss=None):
         self.network_instance.backward(loss)
