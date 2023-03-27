@@ -198,6 +198,13 @@ running rmse-shadow: xxx, rmse-non-shadow: xxx, rmse-all: xxx # ISRD
 ```
 This is the evaluation result of python+pytorch, which is only used during training. To get the evaluation results in the paper, you need to run the [matlab code](#1.4).
 
+## 4.4 Test on SSRD
+1. Edit `src/network/network_DMTN.py`. Modify the line (https://github.com/nachifur/DMTN/blob/main/src/network/network_DMTN.py#L339).
+```
+SSRD = True
+```
+2. Test like the section `4.2 Only Test and Evaluation`.
+
 # 5. Acknowledgements
 Part of the code is based upon:
 * https://github.com/nachifur/LLPC
