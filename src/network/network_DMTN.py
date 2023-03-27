@@ -336,11 +336,16 @@ class SemiConvModule(nn.Module):
             self.split_channels, self.split_channels, kernel_size=3,  padding=1, dilation=1, norm=norm)
 
     def forward(self, x):
-        x_conv = x[:, 0:self.split_channels, :, :]
-        x_identity = x[:, self.split_channels:, :, :]
+        SSRD=False
+        if SSRD:
+            x_conv = x[:, self.split_channels:, :, :]
+            x_identity = x[:, 0:self.split_channels, :, :]
+        else:
+            x_conv = x[:, 0:self.split_channels, :, :]
+            x_identity = x[:, self.split_channels:, :, :]
 
         x_conv = x_conv+self.conv_dilation(x_conv)+self.conv_3x3(x_conv)
-        
+
         x = torch.cat((x_identity, x_conv), dim=1)
         x = self.channel_shuffle(x)
         return x
