@@ -27,12 +27,11 @@ The SSRD dataset does not contain the ground truth of shadow-free images due to 
 * Results on ISTD+: [DMTN_ISTD+](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EZnB81g7L3VPuGo2zhVclVEBPhsO6MBJYPtbOnqxmEDHuw?e=MZLmUM) | Weight: [DMTN_ISTD+.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/ETVno1MtDsdLknqDNKq60VwB9Bq-oq8kZ8B8aiwQBZXbQQ?e=B0S37N)
 * Results on ISTD+: [DMTN+Mask_ISTD+](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EZEQr_hD7XdGgPiesl0L8aABSugt0z5U6V9q2Wv-fEr-VA?e=zq5A7s) | Weight: [DMTN+Mask_ISTD+.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/ETo6UMeCGNhFjJ20o0RedaQBG7XIDcfbqucJ3A-hK6IQAQ?e=uN6sTs)
 
-**TEST RESULTS ON SSRD:**
+**TEST RESULTS ON SSRD:** (DHAN and DMTN are pretrained on SRD dataset (size:420x320))
 
 * Results of DMTN on SSRD: [DMTN_SSRD](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/ET7vtW6b-RNFiK7hJe8coXoBjMMUj2vZ4nEj1SitH8wuKA?e=ZDnfYV) | Weight: [DMTN_SRD_420_320.pth](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EQgZbEFJCLZGiAM8rnbE-ZUBHXw3zyTrhdet7JDSCrYiuA?e=6PcofV)
 * Results of DHAN on SSRD:[DHAN_SSRD](https://mailustceducn-my.sharepoint.com/:u:/g/personal/nachifur_mail_ustc_edu_cn/EROyGJwa2C5JkO1bLDVV_AsBbXRPKoZbBy5EsjAsz6xujg?e=nw53O6)
 
-DHAN and DMTN are pretrained on SRD dataset (size:420x320)
 
 ## 1.3 Visual results
 
