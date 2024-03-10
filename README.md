@@ -224,3 +224,7 @@ Part of the code is based upon:
 ```
 # 7. Contact
 Please contact Jiawei Liu if there is any question (liujiawei18@mails.ucas.ac.cn).
+
+# 8. Revised Errors in the Paper
+Sorry! Here are the revised errors:
+1. In Section III-C-2)-`Fig. 7 (or Fig. 5(b)) shows...`, "we can achieve feature decoupling, i.e., some channels of F represent shadow images (~~`I_m`~~ `I_s`)".
