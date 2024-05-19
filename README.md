@@ -3,6 +3,7 @@
 <img width="512" height="512" src="https://github.com/nachifur/DMTN/blob/main/img/fig1.jpg"/>
 
 # 1. Resources
+[国内资源链接(密码：e2ww)](https://rec.ustc.edu.cn/share/16db9c80-15d5-11ef-9ca4-7b154f4fe8b0)
 
 ## 1.1 Dataset
 * SRD ([github](https://github.com/Liangqiong/DeShadowNet) | [paper](https://openaccess.thecvf.com/content_cvpr_2017/papers/Qu_DeshadowNet_A_Multi-Context_CVPR_2017_paper.pdf))
